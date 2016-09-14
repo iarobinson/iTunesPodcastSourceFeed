@@ -10,3 +10,8 @@ The goal is to have a static page that allows users to enter a podcast url:
 and the window returns:
 
 http://feeds.wnyc.org/radiolab
+
+
+# Thank You
+
+Thank you to Darian Moody (@djm) for the basic algorithm to work this out. He can be found at: https://github.com/djm/uncover-itunes-rss-bookmarklet
