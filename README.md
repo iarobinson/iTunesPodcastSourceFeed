@@ -15,3 +15,8 @@ http://feeds.wnyc.org/radiolab
 # Thank You
 
 Thank you to Darian Moody (@djm) for the basic algorithm to work this out. He can be found at: https://github.com/djm/uncover-itunes-rss-bookmarklet
+
+# Helpful tools to explore
+
+This tool does the job!
+http://itunes.so-nik.com/
