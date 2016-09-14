@@ -15,14 +15,15 @@
 			 * @date: Working as of Sun.22.Apr.2012
 			 */
 
-		 function scrape_url() {
-			 var form = document.forms['getURL'];
-			 var userGeneratedURL = form.feed.value;
-			 console.log(userGeneratedURL, "<= user generated url");
-		 }
+			 var artist_id;
+			 var userGeneratedURL;
 
-			var artist_id;
-			var	feed_url;
+			function scrape_url() {
+				var form = document.forms['getURL'];
+				userGeneratedURL = form.feed.value;
+				artist_id = retrieveArtistID(userGeneratedURL);
+			}
+
 			var	ITUNES_API = '//itunes.apple.com/lookup?id=';
 
 			function retrieveArtistID(url) {
